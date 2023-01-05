@@ -7,7 +7,7 @@ export default function Tutorial() {
   return (
     <>
       <Head>
-        <title>Tutorial</title>
+        <title>Tutorial | Polaris</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         {/* Favicon */}

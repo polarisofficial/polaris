@@ -1,15 +1,13 @@
+import React from "react";
 import Head from "next/head";
-import Demo from "../components/Demo";
-import Features from "../components/Features";
-import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Hero from "../components/Hero";
+import Footer from "../components/Footer";
 
-export default function Home() {
+export default function Play() {
   return (
     <>
       <Head>
-        <title>Home | Polaris</title>
+        <title>Play | Polaris</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         {/* Favicon */}
@@ -27,21 +25,6 @@ export default function Home() {
           {/* Header */}
           <section id="header" className="w-full">
             <Header />
-          </section>
-
-          {/* Hero */}
-          <section id="hero" className="w-full">
-            <Hero />
-          </section>
-
-          {/* Features */}
-          <section id="features" className="w-full">
-            <Features />
-          </section>
-
-          {/* Demos */}
-          <section id="demos" className="w-full">
-            <Demo />
           </section>
 
           {/* Footer */}
