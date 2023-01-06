@@ -2,8 +2,15 @@ import React from "react";
 import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { useForm } from "react-hook-form";
 
 export default function Play() {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+
   return (
     <>
       <Head>
