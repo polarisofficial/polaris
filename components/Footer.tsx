@@ -1,5 +1,5 @@
 import React from "react";
-import Text from "./Text";
+import LinkText from "./LinkText";
 
 type Props = {};
 
@@ -10,15 +10,15 @@ export default function Footer({}: Props) {
         <div className="w-full flex justify-evenly items-start">
           <div className="flex flex-col justify-center items-center">
             <div className="text-white text-sm">全般</div>
-            <Text text="ホーム" link=""></Text>
-            <Text text="更新履歴" link=""></Text>
+            <LinkText text="ホーム" link=""></LinkText>
+            <LinkText text="更新履歴" link=""></LinkText>
           </div>
           <div className="flex flex-col justify-center items-center">
             <div className="text-white text-sm">Legal and Status</div>
-            <Text text="利用規約" link=""></Text>
-            <Text text="プライバシー" link=""></Text>
-            <Text text="著作権（DMCA）" link=""></Text>
-            <Text text="サーバー状態" link=""></Text>
+            <LinkText text="利用規約" link=""></LinkText>
+            <LinkText text="プライバシー" link=""></LinkText>
+            <LinkText text="著作権（DMCA）" link=""></LinkText>
+            <LinkText text="サーバー状態" link=""></LinkText>
           </div>
         </div>
         <div className="flex flex-row justify-center items-center">
