@@ -1,9 +1,12 @@
 import Head from "next/head";
+import Background from "../components/Background";
 import Demo from "../components/Demo";
 import Features from "../components/Features";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -22,8 +25,11 @@ export default function Home() {
         <meta name="theme-color" content="#ffffff" />
       </Head>
 
-      <div className="w-screen bg-background flex justify-center items-center">
-        <div className="w-3/5 flex flex-col justify-between items-center gap-y-5">
+      <div className="w-screen flex justify-center items-center">
+        {/* Background Image */}
+        <Background />
+
+        <div className="w-full flex flex-col justify-between items-center gap-y-5">
           {/* Header */}
           <section id="header" className="w-full">
             <Header />

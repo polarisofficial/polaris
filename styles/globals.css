@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.thin-line {
+  @apply h-[1px] bg-outline;
+}
